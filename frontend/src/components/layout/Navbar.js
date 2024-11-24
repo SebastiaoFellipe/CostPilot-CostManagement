@@ -18,15 +18,15 @@ function Navbar() {
                 </Link>
             </li>
             <li>
-                <Link to="/contact" 
-                className={`hover:text-custom-yellow ${location.pathname === '/contact' ? 'text-custom-yellow' : ''}`}>
-                    Contact
-                </Link>
-            </li>
-            <li>
                 <Link to="/newproject" 
                 className={`hover:text-custom-yellow ${location.pathname === '/newproject' ? 'text-custom-yellow' : ''}`}>
                     NewProject
+                </Link>
+            </li>
+            <li>
+                <Link to="/contact" 
+                className={`hover:text-custom-yellow ${location.pathname === '/contact' ? 'text-custom-yellow' : ''}`}>
+                    Contact
                 </Link>
             </li>
         </ul>
